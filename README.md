@@ -3,7 +3,10 @@
 ## Description
 Kanban board created with React and Typescript. User sessions are done with JWTs.<br>
 Users and tickets are stored in a Postgresql database using Sequelize ORM.<br>
-<!-- NO WAY TO CREATE NEW USERS ¯\_(ツ)_/¯ -->
+<!-- NO WAY TO CREATE NEW USERS THROUGH PROJECT GUI ¯\_(ツ)_/¯ -->
+<!-- MUST USE POST MAN AND MAKE POST REQUESTS THROUGH /api/users/ -->
+<!-- IN JSON BODY: {"username": "", "password": ""} -->
+
 Technologies used:<br>
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
