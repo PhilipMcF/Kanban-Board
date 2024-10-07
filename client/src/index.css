@@ -145,7 +145,7 @@ tbody tr:nth-child(odd) {
   text-align: center;
   font-weight: 500;
   width: 33%;
-  height: 90vh; 
+  height: auto; 
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 5px;
   padding: 5px;
@@ -153,14 +153,17 @@ tbody tr:nth-child(odd) {
 
 .todo {
   background-color: #e9cbec;
+  min-height: 100vh;
 }
 
 .inprogress {
   background-color: #b864c4;
+  min-height: 100vh;
 }
 
 .done {
   background-color: #732381;
+  min-height: 100vh;
 }
 
 .ticket-card {
