@@ -65,6 +65,7 @@ button a {
 
 button:hover {
   border-color: #646cff;
+  color: #535bf2;
 }
 button:focus,
 button:focus-visible {
@@ -111,6 +112,11 @@ tbody tr:nth-child(odd) {
 
 .nav-title a {
   color: #b864c4;
+  transition: text-shadow 0.3s ease; 
+}
+
+.nav-title a:hover { 
+  text-shadow: 0 0 5px #ff77ff, 0 0 10px #ff55ff, 0 0 15px #ff33ff, 0 0 20px #ff00ff;
 }
 
 .nav-item {
