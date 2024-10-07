@@ -35,9 +35,9 @@ npm install
 
 ## Usage
 
-[Click here to visit deployed site!](place render link here!)
+[Click here to visit deployed site!](https://kanban-board-parh.onrender.com)
 
-![Dashboard of Kanban Board](./images/kanbanBoardDashboard.PNG)
+[![Dashboard of Kanban Board](./images/kanbanBoardDashboard.PNG)](https://kanban-board-parh.onrender.com)
 
 To start the project, make sure you are in the root directory of the repo/project and run this command in a terminal window:
 ```bash
